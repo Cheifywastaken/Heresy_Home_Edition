@@ -14593,6 +14593,51 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Fenrisian Great Axe",
+        "id": "9ee1-c374-07a1-2e17",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Reaping Blow (X)",
+            "id": "bd72-cbc8-98f1-eb7f",
+            "comment": "2",
+            "hidden": false,
+            "targetId": "951f-eee4-02b7-b014",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Reaping Blow (2)"}]
+          },
+          {
+            "name": "Armour-Breaker (X)",
+            "id": "dd03-6fe6-9b07-b6a0",
+            "comment": "4+",
+            "hidden": false,
+            "targetId": "3009-9bbb-a8f6-1b47",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Armour-Breaker (4+)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Fenrisian Great Axe",
+            "id": "b698-d11f-e789-b645",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {"name": "IM", "$text": "-1", "typeId": "6eec-4093-f946-1014"},
+              {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
+              {"name": "SM", "$text": "+3", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
+              {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "Special Rules", "$text": "Reaping Blow (2), Armour-Breaker (4+)", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

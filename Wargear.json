@@ -1791,6 +1791,56 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Atomantic Pavise",
+        "id": "ac9c-a54d-dc22-c60b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Atomantic Pavise",
+            "id": "6e7f-1fbf-431b-f820",
+            "hidden": false,
+            "typeId": "5ec5-e0c3-1701-6f16",
+            "typeName": "Wargear",
+            "characteristics": [
+              {
+                "name": "Summary",
+                "$text": "\"Models wholly within 3\" of this Model have a 5+ Invulnerable Save against Shooting Attacks.\"",
+                "typeId": "8e7d-a0ae-fd85-983c"
+              },
+              {"name": "Description", "typeId": "9944-2f6d-d61b-03b5"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blizzard Pattern Storm Shield",
+        "id": "df29-b4a6-7667-162f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Shield", "id": "8fd3-15b9-0c75-02ca", "hidden": false, "targetId": "1af7-07d5-7558-0b64", "type": "profile"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "26c6-e05c-0f72-7852"}],
+        "profiles": [
+          {
+            "name": "Blizzard Pattern Storm Shield",
+            "id": "273f-5ee8-fc51-58f6",
+            "hidden": false,
+            "typeId": "5ec5-e0c3-1701-6f16",
+            "typeName": "Wargear",
+            "characteristics": [
+              {"name": "Summary", "$text": "", "typeId": "8e7d-a0ae-fd85-983c"},
+              {
+                "name": "Description",
+                "$text": "A Model with a Blizzard Pattern Storm Shield gains a 4+ Invulnerable Save. In addition it gains the Shield Trait and the Heavy Sub-Type.",
+                "typeId": "9944-2f6d-d61b-03b5"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

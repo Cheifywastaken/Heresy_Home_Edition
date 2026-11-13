@@ -4176,6 +4176,55 @@
                     "sortIndex": 1,
                     "targetId": "5c0e-33c5-afb1-fed5",
                     "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Quad Banestrike Bolt Cannon",
+                    "id": "3d6b-c068-1cad-bfd2",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 5,
+                    "targetId": "4cbb-dff3-1b3a-48e4",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -11595,6 +11644,55 @@
                     "sortIndex": 1,
                     "targetId": "5c0e-33c5-afb1-fed5",
                     "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Quad Banestrike Bolt Cannon",
+                    "id": "a3b8-aff7-9fff-441c",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 5,
+                    "targetId": "4cbb-dff3-1b3a-48e4",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -20514,76 +20612,6 @@
                             ]
                           }
                         ]
-                      },
-                      {
-                        "name": "Frost axe",
-                        "id": "c95b-3cae-b9ca-8cea",
-                        "hidden": true,
-                        "import": true,
-                        "sortIndex": 10,
-                        "targetId": "1deb-afd8-f63d-0fe5",
-                        "type": "selectionEntry",
-                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
-                        "modifiers": [
-                          {
-                            "comment": "SH Only",
-                            "field": "hidden",
-                            "type": "set",
-                            "value": false,
-                            "conditionGroups": [
-                              {
-                                "type": "or",
-                                "conditionGroups": [
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
-                                      {
-                                        "childId": "3e12-20bf-607f-c531",
-                                        "childName": "Panoply of Old - Space Wolves",
-                                        "field": "selections",
-                                        "includeChildForces": true,
-                                        "includeChildSelections": true,
-                                        "scope": "roster",
-                                        "shared": true,
-                                        "type": "atLeast",
-                                        "value": 1
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {
-                                        "childId": "d56f-9f02-0f4f-13ed",
-                                        "childName": "Space Wolves",
-                                        "field": "selections",
-                                        "includeChildSelections": true,
-                                        "scope": "model",
-                                        "shared": true,
-                                        "type": "atLeast",
-                                        "value": 1
-                                      },
-                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
-                                    ]
-                                  }
-                                ],
-                                "conditions": [
-                                  {
-                                    "childId": "d995-cb33-be41-ecf8",
-                                    "childName": "                         VI - Space Wolves",
-                                    "field": "selections",
-                                    "includeChildSelections": true,
-                                    "scope": "force",
-                                    "shared": true,
-                                    "type": "instanceOf",
-                                    "value": 1
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
                       }
                     ],
                     "modifiers": [
@@ -28746,8 +28774,73 @@
               {"id": "b55b-3f01-eee5-7914", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
             "entryLinks": [
-              {"name": "Twin heavy bolter", "id": "e531-6f2b-7e6a-533e", "hidden": false, "import": true, "targetId": "e0bc-e3e1-54e7-bd75", "type": "selectionEntry"},
-              {"name": "Twin heavy flamer", "id": "c6bf-34fb-2e67-637b", "hidden": false, "import": true, "targetId": "f797-93eb-d6fe-586a", "type": "selectionEntry"}
+              {
+                "name": "Twin heavy bolter",
+                "id": "e531-6f2b-7e6a-533e",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "e0bc-e3e1-54e7-bd75",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Twin heavy flamer",
+                "id": "c6bf-34fb-2e67-637b",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "targetId": "f797-93eb-d6fe-586a",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Twin Banestrike Bolt Cannon",
+                "id": "7977-f27e-7608-5007",
+                "hidden": true,
+                "import": true,
+                "sortIndex": 3,
+                "targetId": "f475-da93-de6b-3194",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "modifiers": [
+                  {
+                    "comment": "SH Only",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "59b9-6955-2307-aa98",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -56633,6 +56726,70 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Fenrisian Great Axe",
+                "id": "6cf4-e75a-4936-ca15",
+                "hidden": true,
+                "import": true,
+                "targetId": "9ee1-c374-07a1-2e17",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "modifiers": [
+                  {
+                    "comment": "SW Only",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "3e12-20bf-607f-c531",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "d56f-9f02-0f4f-13ed", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "34b6-2cfd-313a-0eff",
+                                "childName": "Exemplars of the Legion - Space Wolves",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "d995-cb33-be41-ecf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -56903,6 +57060,18 @@
                         "shared": true,
                         "type": "equalTo",
                         "value": 0
+                      },
+                      {
+                        "childId": "df29-b4a6-7667-162f",
+                        "childName": "Blizzard Pattern Storm Shield",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
                       }
                     ]
                   }
@@ -57080,6 +57249,70 @@
                           }
                         ],
                         "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Blizzard Pattern Storm Shield",
+                "id": "9780-55db-5545-8af5",
+                "hidden": true,
+                "import": true,
+                "targetId": "df29-b4a6-7667-162f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}],
+                "modifiers": [
+                  {
+                    "comment": "SW Only",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "3e12-20bf-607f-c531",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "d56f-9f02-0f4f-13ed", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "34b6-2cfd-313a-0eff",
+                                "childName": "Exemplars of the Legion - Space Wolves",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "d995-cb33-be41-ecf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
                       }
                     ]
                   }
@@ -107082,6 +107315,55 @@
                     "targetId": "0135-12f0-d86f-ced9",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                  },
+                  {
+                    "name": "Gravis Banestrike Bolt Cannon",
+                    "id": "f7b1-5a8b-9efd-4857",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 10,
+                    "targetId": "95e7-2984-7317-8c69",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -107230,6 +107512,55 @@
                     "targetId": "8e62-3fda-37e1-5f0a",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                  },
+                  {
+                    "name": "Gravis Banestrike Bolt Cannon",
+                    "id": "1c88-736d-3d34-ca5c",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 10,
+                    "targetId": "95e7-2984-7317-8c69",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
