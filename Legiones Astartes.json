@@ -56973,7 +56973,20 @@
                     "value": 1
                   },
                   {"childId": "6028-bb7c-5d28-431e", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
-                  {"childId": "86e9-33a5-033c-6e3f", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1}
+                  {"childId": "86e9-33a5-033c-6e3f", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
+                  {
+                    "childId": "df29-b4a6-7667-162f",
+                    "childName": "Blizzard Pattern Storm Shield",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "value": 1
+                  }
                 ]
               },
               {
@@ -57006,7 +57019,20 @@
                     "value": 1
                   },
                   {"childId": "6028-bb7c-5d28-431e", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
-                  {"childId": "86e9-33a5-033c-6e3f", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1}
+                  {"childId": "86e9-33a5-033c-6e3f", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
+                  {
+                    "childId": "df29-b4a6-7667-162f",
+                    "childName": "Blizzard Pattern Storm Shield",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "value": 1
+                  }
                 ]
               },
               {
