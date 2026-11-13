@@ -20514,6 +20514,76 @@
                             ]
                           }
                         ]
+                      },
+                      {
+                        "name": "Frost axe",
+                        "id": "c95b-3cae-b9ca-8cea",
+                        "hidden": true,
+                        "import": true,
+                        "sortIndex": 10,
+                        "targetId": "1deb-afd8-f63d-0fe5",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                        "modifiers": [
+                          {
+                            "comment": "SH Only",
+                            "field": "hidden",
+                            "type": "set",
+                            "value": false,
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditionGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                      {
+                                        "childId": "3e12-20bf-607f-c531",
+                                        "childName": "Panoply of Old - Space Wolves",
+                                        "field": "selections",
+                                        "includeChildForces": true,
+                                        "includeChildSelections": true,
+                                        "scope": "roster",
+                                        "shared": true,
+                                        "type": "atLeast",
+                                        "value": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {
+                                        "childId": "d56f-9f02-0f4f-13ed",
+                                        "childName": "Space Wolves",
+                                        "field": "selections",
+                                        "includeChildSelections": true,
+                                        "scope": "model",
+                                        "shared": true,
+                                        "type": "atLeast",
+                                        "value": 1
+                                      },
+                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                    ]
+                                  }
+                                ],
+                                "conditions": [
+                                  {
+                                    "childId": "d995-cb33-be41-ecf8",
+                                    "childName": "                         VI - Space Wolves",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "force",
+                                    "shared": true,
+                                    "type": "instanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ],
                     "modifiers": [
@@ -56673,7 +56743,7 @@
                 "import": true,
                 "targetId": "08db-6d95-f0be-cfe0",
                 "type": "selectionEntry",
-                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
                 "modifiers": [
                   {
                     "comment": "SH Only",
@@ -56969,8 +57039,8 @@
               },
               {
                 "name": "Gravis Banestrike Bolt Cannon",
-                "id": "960b-2d77-c66e-32b6",
-                "hidden": false,
+                "id": "247f-d9d4-683e-3521",
+                "hidden": true,
                 "import": true,
                 "targetId": "95e7-2984-7317-8c69",
                 "type": "selectionEntry",
