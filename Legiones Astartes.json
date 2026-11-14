@@ -107396,9 +107396,75 @@
                     "id": "e80b-c893-3fe0-0eea",
                     "hidden": true,
                     "import": true,
+                    "sortIndex": 11,
                     "targetId": "de31-bf4f-604d-4f0c",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}],
+                    "modifiers": [
+                      {
+                        "comment": "SW Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "3e12-20bf-607f-c531",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "d56f-9f02-0f4f-13ed", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "34b6-2cfd-313a-0eff",
+                                    "childName": "Exemplars of the Legion - Space Wolves",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit",
+                                    "shared": true,
+                                    "type": "instanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "d995-cb33-be41-ecf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fenrisian Great Axe",
+                    "id": "9e9d-7e0a-8f4c-62e8",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 12,
+                    "targetId": "9ee1-c374-07a1-2e17",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
                     "modifiers": [
                       {
                         "comment": "SW Only",
@@ -107651,6 +107717,120 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Blizzard Pattern Storm Shield",
+                    "id": "abc2-2894-1971-56ee",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 12,
+                    "targetId": "df29-b4a6-7667-162f",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}],
+                    "modifiers": [
+                      {
+                        "comment": "SW Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "3e12-20bf-607f-c531",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "d56f-9f02-0f4f-13ed", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "34b6-2cfd-313a-0eff",
+                                    "childName": "Exemplars of the Legion - Space Wolves",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit",
+                                    "shared": true,
+                                    "type": "instanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "d995-cb33-be41-ecf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gravis Banestrike Bolt Cannon",
+                    "id": "c893-5fd3-ff82-96a9",
+                    "hidden": true,
+                    "import": true,
+                    "sortIndex": 11,
+                    "targetId": "95e7-2984-7317-8c69",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -107820,7 +108000,20 @@
                         "value": 1
                       },
                       {"childId": "cf9a-1fa0-1985-403d", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
-                      {"childId": "8e02-7cbf-0ff6-a348", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1}
+                      {"childId": "8e02-7cbf-0ff6-a348", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
+                      {
+                        "childId": "df29-b4a6-7667-162f",
+                        "childName": "Blizzard Pattern Storm Shield",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
                     ]
                   },
                   {
@@ -107853,7 +108046,20 @@
                         "value": 1
                       },
                       {"childId": "cf9a-1fa0-1985-403d", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
-                      {"childId": "8e02-7cbf-0ff6-a348", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1}
+                      {"childId": "8e02-7cbf-0ff6-a348", "field": "selections", "repeats": 2, "roundUp": false, "scope": "parent", "shared": true, "value": 1},
+                      {
+                        "childId": "df29-b4a6-7667-162f",
+                        "childName": "Blizzard Pattern Storm Shield",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
                     ]
                   },
                   {
@@ -107899,6 +108105,18 @@
                           },
                           {
                             "childId": "8e02-7cbf-0ff6-a348",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 0
+                          },
+                          {
+                            "childId": "df29-b4a6-7667-162f",
+                            "childName": "Blizzard Pattern Storm Shield",
                             "field": "selections",
                             "includeChildForces": false,
                             "includeChildSelections": false,
