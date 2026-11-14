@@ -1308,8 +1308,7 @@
         "id": "8bf3-81e8-28db-ec41",
         "description": "**Weapons with this Special Rule may impose penalities on the Models making Shooting Attacks with them.**\n\nOnce the current Shooting Attack and any Reactions triggered by it have been fully resolved, roll a Dice. If the result of that Dice roll is equal to or greater than the value of X attached to this variant of the Helfrosted (X) Special Rule, the Model carrying this weapon is Frosted.\n\nA Model that is Frosted gains the Pinned Status until the End phase of the controlling players next turn, in Addition a model that is Frosted cannot make a Shooting Attack with a weapon with this Special Rule until the End phase of the controlling players next turn.\n   ",
         "hidden": false,
-        "page": 304,
-        "publicationId": "b905-0414-1057-bb34",
+        "page": "",
         "alias": ["Helfrosted"]
       }
     ],
