@@ -68315,7 +68315,7 @@
                     "sortIndex": 3,
                     "targetId": "bd90-7986-8459-1fcc",
                     "type": "selectionEntry",
-                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 30}]
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}]
                   }
                 ]
               },

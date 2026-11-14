@@ -3018,11 +3018,11 @@
           {
             "name": "Melta (X)",
             "id": "db71-e0e2-9bed-de2d",
-            "comment": "24",
+            "comment": "12",
             "hidden": false,
             "targetId": "8ef6-917e-93da-43c3",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Melta (24)"}]
+            "modifiers": [{"field": "name", "type": "set", "value": "Melta (12)"}]
           },
           {
             "name": "Heavy (X)",
@@ -3047,7 +3047,7 @@
               {"name": "RS", "$text": "9", "typeId": "b9da-ee13-79f9-fa63"},
               {"name": "AP", "$text": "2", "typeId": "7a23-0248-2b94-5951"},
               {"name": "D", "$text": "4", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Heavy (RS), Melta (24)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Special Rules", "$text": "Heavy (RS), Melta (12)", "typeId": "5aad-137a-8ee2-63fd"},
               {"name": "Traits", "$text": "Melta", "typeId": "1247-79d2-6cc1-8a03"}
             ]
           }
