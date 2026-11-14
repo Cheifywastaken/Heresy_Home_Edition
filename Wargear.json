@@ -1793,30 +1793,6 @@
         ]
       },
       {
-        "name": "Atomantic Pavise",
-        "id": "ac9c-a54d-dc22-c60b",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "profiles": [
-          {
-            "name": "Atomantic Pavise",
-            "id": "6e7f-1fbf-431b-f820",
-            "hidden": false,
-            "typeId": "5ec5-e0c3-1701-6f16",
-            "typeName": "Wargear",
-            "characteristics": [
-              {
-                "name": "Summary",
-                "$text": "\"Models wholly within 3\" of this Model have a 5+ Invulnerable Save against Shooting Attacks.\"",
-                "typeId": "8e7d-a0ae-fd85-983c"
-              },
-              {"name": "Description", "typeId": "9944-2f6d-d61b-03b5"}
-            ]
-          }
-        ]
-      },
-      {
         "name": "Blizzard Pattern Storm Shield",
         "id": "df29-b4a6-7667-162f",
         "hidden": false,
