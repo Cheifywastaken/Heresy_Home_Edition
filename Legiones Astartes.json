@@ -107897,6 +107897,7 @@
                     "defaultAmount": 1,
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 1,
                     "targetId": "042d-9e60-db9e-c147",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0}]
@@ -107918,6 +107919,54 @@
                     "targetId": "b1e1-e164-5877-6734",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                  },
+                  {
+                    "name": "Banestrike combi-bolter",
+                    "id": "bfcd-c784-256c-c4b9",
+                    "hidden": true,
+                    "import": true,
+                    "targetId": "08db-6d95-f0be-cfe0",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
+                    "modifiers": [
+                      {
+                        "comment": "SH Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "59b9-6955-2307-aa98",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "bd13-7b89-7edf-23d9", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "ac06-fcec-b634-5bd9", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
