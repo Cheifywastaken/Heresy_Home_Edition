@@ -107390,6 +107390,70 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Helfrost cannon",
+                    "id": "e80b-c893-3fe0-0eea",
+                    "hidden": true,
+                    "import": true,
+                    "targetId": "de31-bf4f-604d-4f0c",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}],
+                    "modifiers": [
+                      {
+                        "comment": "SW Only",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "3e12-20bf-607f-c531",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "d56f-9f02-0f4f-13ed", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                  {
+                                    "childId": "34b6-2cfd-313a-0eff",
+                                    "childName": "Exemplars of the Legion - Space Wolves",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit",
+                                    "shared": true,
+                                    "type": "instanceOf",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "d995-cb33-be41-ecf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [

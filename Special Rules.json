@@ -1302,6 +1302,15 @@
         "id": "cdb4-49d4-88d7-a2c6",
         "description": "**Enemy Units in Combat with a Unit with this Special Rule must pass a Willpower Check before having an Aftermath option selected for them.**\n\n\nIf a Combat includes any Models with this Special Rule, the Controlling Player may choose that the Opposing Player must make a Willpower Check for each of their Units in the selected Combat, before selecting any Aftermath option for that Unit. If the Willpower Check is passed, the Player may select an Aftermath option as normal. If the Willpower Check is failed, the Player must select Hold. Note that if a Unit contains any Models with the Routed status, a Willpower Check must still be made for that Unit. If the Check is passed, the Unit must Fall Back and if the Check is failed the Unit must Hold, but the Models retain the Routed Status, regardless of the result.",
         "hidden": false
+      },
+      {
+        "name": "Helfrosted (X)",
+        "id": "8bf3-81e8-28db-ec41",
+        "description": "**Weapons with this Special Rule may impose penalities on the Models making Shooting Attacks with them.**\n\nOnce the current Shooting Attack and any Reactions triggered by it have been fully resolved, roll a Dice. If the result of that Dice roll is equal to or greater than the value of X attached to this variant of the Helfrosted (X) Special Rule, the Model carrying this weapon is Frosted.\n\nA Model that is Frosted gains the Pinned Status until the End phase of the controlling players next turn, in Addition a model that is Frosted cannot make a Shooting Attack with a weapon with this Special Rule until the End phase of the controlling players next turn.\n   ",
+        "hidden": false,
+        "page": 304,
+        "publicationId": "b905-0414-1057-bb34",
+        "alias": ["Helfrosted"]
       }
     ],
     "sharedSelectionEntries": [

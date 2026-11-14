@@ -14638,6 +14638,102 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Helfrost cannon",
+        "id": "de31-bf4f-604d-4f0c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Blast (X)",
+            "id": "cc7f-d077-83ab-e458",
+            "comment": "3\" (Focused)",
+            "hidden": false,
+            "targetId": "8687-05f8-7034-412c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Blast (3\") (Focused)"}]
+          },
+          {
+            "name": "Pinning (X)",
+            "id": "a1f3-6aec-1588-6c13",
+            "comment": "2 (Dispersed)",
+            "hidden": false,
+            "targetId": "88b6-6493-e4d7-1805",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Pinning (2) Dispersed"}]
+          },
+          {
+            "name": "Breaching (X)",
+            "id": "6d03-a2d0-002a-02cc",
+            "comment": "4+ (Focused)",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+) (Focused)"}]
+          },
+          {
+            "name": "Helfrosted (X)",
+            "id": "c72e-e5d1-dc64-6176",
+            "comment": "6+ (Dispersed)",
+            "hidden": false,
+            "targetId": "8bf3-81e8-28db-ec41",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Helfrosted (6+) (Dispersed)"}]
+          },
+          {
+            "name": "Helfrosted (X)",
+            "id": "51c3-2be8-8dd3-8861",
+            "comment": "5+ (Focused)",
+            "hidden": false,
+            "targetId": "8bf3-81e8-28db-ec41",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Helfrosted (6+) (Dispersed)"}]
+          },
+          {
+            "name": "Heavy (X)",
+            "id": "8c50-bdcb-5648-3150",
+            "hidden": false,
+            "targetId": "bc30-3b33-2683-01a2",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Heavy (D)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Helfrost cannon (Dispersed)",
+            "id": "e689-8cd3-f082-f4f3",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "Template", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Pinning (2), Overload (1)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Las", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          },
+          {
+            "name": "Helfrost cannon (Focused)",
+            "id": "3886-3d88-9ea1-c178",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "36", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "8", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Heavy (D), Blast (3\"), Breaching (5+), Overload (2)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Las", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
