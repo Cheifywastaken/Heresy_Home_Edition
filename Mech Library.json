@@ -2086,6 +2086,51 @@
             "hidden": false
           }
         ]
+      },
+      {
+        "name": "Siege wrecker",
+        "id": "bd73-7eba-8cc4-9926",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Breaching (X)",
+            "id": "698a-d325-c5d5-6ee7",
+            "comment": "5+",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+          },
+          {
+            "name": "Shock (X)",
+            "id": "dd8c-4dbd-5af3-629e",
+            "comment": "Pinned",
+            "hidden": false,
+            "targetId": "c6fd-28d0-3f80-672c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Shock (Pinned)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Siege wrecker",
+            "id": "40fb-d875-6311-3ec8",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {"name": "IM", "$text": "-2", "typeId": "6eec-4093-f946-1014"},
+              {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
+              {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
+              {"name": "D", "$text": "3", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "Special Rules", "$text": "Breaching (5+), Shock (Pinned)", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

@@ -6362,6 +6362,17 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "2ea8-ac18-1b55-9c2b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                  },
+                  {
+                    "name": "Siege wrecker",
+                    "id": "b2df-bbec-0b66-32ff",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 3,
+                    "targetId": "bd73-7eba-8cc4-9926",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "babb-e26f-7403-4be6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}]
                   }
                 ]
               },
@@ -6447,6 +6458,17 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "bf9f-2cc6-5f86-acaa", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                  },
+                  {
+                    "name": "Irradiation engine",
+                    "id": "c443-8e58-ba1e-c020",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 4,
+                    "targetId": "6053-f4b6-7d5e-552d",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "3136-72d3-b6f2-b4b2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
                   }
                 ]
               }
