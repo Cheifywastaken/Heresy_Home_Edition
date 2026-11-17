@@ -30856,7 +30856,7 @@
                     "value": false,
                     "conditions": [{"childId": "9cff-ac34-56ca-260f", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
                   },
-                  {"field": "9893-c379-920b-8982", "type": "set", "value": 30}
+                  {"field": "9893-c379-920b-8982", "type": "set", "value": 20}
                 ]
               },
               {
@@ -30880,6 +30880,47 @@
                   }
                 ],
                 "modifiers": [{"field": "9893-c379-920b-8982", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Two Iliastus assault cannons",
+                "id": "fa65-8563-0e5f-0930",
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "entryLinks": [
+                  {
+                    "name": "Iliastus Assault Cannon",
+                    "id": "b821-ae64-ac0d-b9ec",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f38b-8af1-17b8-30fe",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "46a1-05e7-a201-4d2f", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
+                      {"id": "e2c2-fc33-cd34-39ae", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "d186-cffc-0950-f632",
+                        "childName": "                         VII - Imperial Fists",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {"field": "9893-c379-920b-8982", "type": "set", "value": 20}
+                ]
               }
             ]
           }
