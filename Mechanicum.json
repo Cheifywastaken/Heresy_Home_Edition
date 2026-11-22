@@ -1013,6 +1013,15 @@
             "conditions": [{"childId": "dbe3-9946-d4de-dc73", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           }
         ]
+      },
+      {
+        "name": "Onager Rust Walker",
+        "id": "6536-00db-e6e5-a9ff",
+        "hidden": false,
+        "import": true,
+        "targetId": "3ce7-35ed-bbab-e958",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Armour", "id": "a48e-4cbf-3a77-9c6b", "primary": true, "targetId": "643a-1012-bd51-6537"}]
       }
     ],
     "sharedProfiles": [
