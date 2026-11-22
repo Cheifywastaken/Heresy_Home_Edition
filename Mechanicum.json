@@ -16032,6 +16032,293 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Onager Rust Walker",
+        "id": "3ce7-35ed-bbab-e958",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 23,
+        "type": "unit",
+        "categoryLinks": [{"name": "Macrotek", "id": "9f04-15a7-b5ca-4c27", "primary": false, "targetId": "1ec3-1433-658a-f04e"}],
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 120},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+          {"name": "Primary Detachment", "typeId": "394e-d166-d4e5-022a", "value": 0},
+          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Macrotek",
+            "id": "1d13-1901-2e6b-cc58",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "67af-3519-2c95-6da0",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "c5d7-284c-f4b1-f30d", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f09b-5f95-5518-d7ff", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "c5d7-284c-f4b1-f30d",
+                "type": "set",
+                "value": 0,
+                "conditions": [{"childId": "2f57-6e9d-8a7b-5c2e", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              },
+              {
+                "field": "f09b-5f95-5518-d7ff",
+                "type": "set",
+                "value": 0,
+                "conditions": [{"childId": "2f57-6e9d-8a7b-5c2e", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Prime Unit",
+            "id": "1622-e17d-199d-c063",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 5,
+            "targetId": "3fa2-78b1-637f-7fb2",
+            "type": "selectionEntry",
+            "entryLinks": [
+              {
+                "name": "Mechanicum Prime Benefits",
+                "id": "6203-f089-3b35-9e4c",
+                "hidden": false,
+                "import": true,
+                "targetId": "4ae1-f3b2-e1c8-165f",
+                "type": "selectionEntryGroup",
+                "modifiers": [
+                  {
+                    "field": "defaultSelectionEntryId",
+                    "type": "set",
+                    "value": "8855-4255-3c14-bc68",
+                    "conditions": [{"childId": "a782-7985-325b-1840", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "881f-5dbe-10fd-ec48",
+                "type": "set",
+                "value": 1,
+                "conditions": [{"childId": "a782-7985-325b-1840", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "[Allegiance]", "id": "8d52-7d3a-e1a7-7a3c", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
+          {
+            "name": "[Mechanicum]",
+            "id": "ba53-a8a4-fe37-3315",
+            "hidden": false,
+            "targetId": "7aca-c779-952f-fcac",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "2f57-6e9d-8a7b-5c2e", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"}],
+        "selectionEntries": [
+          {
+            "name": "Rust Walker",
+            "id": "444e-dd60-0b64-bb4b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Vehicle Model Type", "id": "07a4-1553-21da-b00f", "primary": false, "targetId": "aa5a-c9fd-1eb1-7a45"},
+              {"name": "Rapid Sub-Type", "id": "affb-663f-d3e8-5ceb", "primary": false, "targetId": "a5c6-b359-cecb-e0b1"},
+              {"name": "Stable Model Sub-Type", "id": "c283-ea06-3688-0617", "hidden": false, "primary": false, "targetId": "3753-39e1-22c2-531b"}
+            ],
+            "constraints": [
+              {"id": "dc2a-9ae9-bed1-bca5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "1d2d-4b02-83ae-185b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "costs": [{"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}, {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Auto-Repair (X)",
+                "id": "d3cb-3250-8c6d-d8fa",
+                "comment": "4+",
+                "hidden": false,
+                "targetId": "3973-ed50-1482-ff4a",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Auto-Repair (4+)"}]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Rust Walker",
+                "id": "7489-fa2b-00bb-1f7f",
+                "hidden": false,
+                "typeId": "2a80-eec8-a736-2fe3",
+                "typeName": "Vehicle",
+                "characteristics": [
+                  {"name": "Type", "$text": "Vehicle (Rapid , Stable)", "typeId": "827f-9ce2-2118-e134"},
+                  {"name": "M", "$text": "10", "typeId": "d624-72fe-0205-4443"},
+                  {"name": "BS", "$text": "4", "typeId": "a17e-8e7d-d21f-c138"},
+                  {"name": "Front Armour", "$text": "12", "typeId": "6536-e73d-4a74-c675"},
+                  {"name": "Side Armour", "$text": "12", "typeId": "f03a-18a7-8586-273d"},
+                  {"name": "Rear Armour", "$text": "12", "typeId": "ec84-1f5d-1bb3-6826"},
+                  {"name": "HP", "$text": "4", "typeId": "8735-4497-1f8a-4dda"},
+                  {"name": "Transport Capacity", "$text": "-", "typeId": "a82e-858c-9aa9-2b43"},
+                  {"name": "Access Points", "$text": "", "typeId": "ffe7-e997-ea4e-6c2d"}
+                ],
+                "modifierGroups": [
+                  {
+                    "comment": "Prime Conveyor",
+                    "type": "and",
+                    "conditions": [{"childId": "5e61-75cf-5a52-a94d", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "atLeast", "value": 1}],
+                    "modifiers": [
+                      {"field": "6536-e73d-4a74-c675", "type": "increment", "value": 1},
+                      {"field": "f03a-18a7-8586-273d", "type": "increment", "value": 1},
+                      {"field": "6536-e73d-4a74-c675", "type": "ceil", "value": 14},
+                      {"field": "f03a-18a7-8586-273d", "type": "ceil", "value": 14},
+                      {"field": "8735-4497-1f8a-4dda", "type": "increment", "value": 2},
+                      {"field": "a82e-858c-9aa9-2b43", "type": "increment", "value": 2}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Militia",
+                    "field": "a17e-8e7d-d21f-c138",
+                    "type": "decrement",
+                    "value": 1,
+                    "conditions": [{"childId": "b3b6-dc52-35dc-24b4", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Options",
+            "id": "8e04-b86f-40e6-bf53",
+            "hidden": false,
+            "sortIndex": 3,
+            "entryLinks": [
+              {
+                "name": "Hunter-killer missile",
+                "id": "3cbc-3047-971f-ec7a",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "b9b7-8297-35b5-74ad",
+                "type": "selectionEntry",
+                "constraints": [{"id": "8198-bab9-cbf5-7ef0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
+                "modifiers": [{"field": "name", "type": "set", "value": "Hull (Front) Mounted hunter-killer missile"}]
+              },
+              {
+                "name": "Volkite caliver",
+                "id": "9d2f-2797-1bd4-32fe",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "targetId": "a042-1a69-9052-c59a",
+                "type": "selectionEntry",
+                "constraints": [{"id": "69aa-b088-a87f-a124", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
+                "modifiers": [{"field": "name", "type": "set", "value": "Two Sponson Mounted Volkite calivers"}]
+              }
+            ]
+          },
+          {
+            "name": "Centreline Mounted Weapon:",
+            "id": "c20d-b83d-385e-0fea",
+            "defaultSelectionEntryId": "9e35-1648-18af-6a7c",
+            "hidden": false,
+            "sortIndex": 2,
+            "constraints": [
+              {"id": "9404-b55c-d5e6-0d4f", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "c953-7775-1ce6-a920", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Lightning cannon",
+                "id": "89b7-aa8e-d2f3-51ad",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "fae1-04cd-0971-ee22",
+                "type": "selectionEntry",
+                "constraints": [{"id": "7287-e6ea-c29b-b67e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted lightning cannon"}]
+              },
+              {
+                "name": "Irradiation blaster",
+                "id": "521e-9aa5-eb5c-5d09",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "targetId": "c73b-0a8b-9437-503f",
+                "type": "selectionEntry",
+                "constraints": [{"id": "6a45-e86f-c103-e180", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted irradiation blaster"}]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Sollex heavy-las and one Co-axial mounted heavy stubber",
+                "id": "7bda-97ac-e1ac-be5f",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 3,
+                "type": "upgrade",
+                "entryLinks": [
+                  {
+                    "name": "Heavy stubber",
+                    "id": "18c7-e58f-6a88-8cc0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "51af-9efb-4c72-90be",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "8752-f11c-dd20-0d02", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "7d13-7dd8-9a9f-9b49", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [{"field": "name", "type": "set", "value": "Turret mounted vanquisher cannon"}]
+                  },
+                  {
+                    "name": "Sollex heavy-las",
+                    "id": "8900-0767-08cd-01c2",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "b9bd-9270-b7b0-4440",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "cd20-c7a8-f358-836c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "f62d-ad9f-333e-ffb7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [{"field": "name", "type": "set", "value": "Co-axial (vanquisher cannon) Mounted heavy stubber"}]
+                  }
+                ],
+                "modifiers": [{"field": "9893-c379-920b-8982", "type": "set", "value": 10}]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
