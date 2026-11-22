@@ -16038,7 +16038,7 @@
         "id": "3ce7-35ed-bbab-e958",
         "hidden": false,
         "import": true,
-        "sortIndex": 23,
+        "sortIndex": 40,
         "type": "unit",
         "categoryLinks": [{"name": "Macrotek", "id": "9f04-15a7-b5ca-4c27", "primary": false, "targetId": "1ec3-1433-658a-f04e"}],
         "costs": [
