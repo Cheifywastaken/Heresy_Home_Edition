@@ -681,6 +681,58 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Onager Rust Walker",
+        "id": "f2e6-f8bd-e83b-9be6",
+        "hidden": false,
+        "import": true,
+        "targetId": "3ce7-35ed-bbab-e958",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Armour", "id": "ecb7-aab8-3544-e1a5", "primary": true, "targetId": "643a-1012-bd51-6537"}],
+        "entryLinks": [
+          {
+            "name": "Skitarii Sub Factions",
+            "id": "29de-b932-94ea-2ce9",
+            "hidden": false,
+            "import": true,
+            "targetId": "cdc4-0bc4-89cb-3689",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "[Skitarii]", "id": "7a28-7783-0bab-15ce", "hidden": false, "targetId": "e4fa-dbbf-91c1-d396", "type": "profile"}],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "category",
+                "type": "add",
+                "value": "1ebf-72a3-b0b3-4944",
+                "conditions": [{"childId": "637f-8850-f6f5-6f6a", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "category",
+                "type": "add",
+                "value": "ac12-7d1f-98e4-2b58",
+                "conditions": [{"childId": "ac1d-bf09-c84a-fce3", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "category",
+                "type": "add",
+                "value": "b2d5-2df6-b213-989b",
+                "conditions": [{"childId": "70fa-cb14-19c6-a11d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              },
+              {
+                "field": "category",
+                "type": "add",
+                "value": "b819-ac22-c04b-0932",
+                "conditions": [{"childId": "979d-4792-94a6-d6b8", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "Skitarii"}, {"field": "category", "type": "remove", "value": "1ec3-1433-658a-f04e"}]
       }
     ],
     "forceEntries": [
