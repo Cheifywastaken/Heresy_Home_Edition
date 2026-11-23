@@ -2167,6 +2167,70 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Heavy irradiation engine",
+        "id": "7deb-c73a-4d86-38f2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Panic (X)",
+            "id": "49e9-f04a-76e5-8d40",
+            "comment": "1",
+            "hidden": false,
+            "targetId": "82a7-f471-3fda-6ca1",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Panic (1)"}]
+          },
+          {
+            "name": "Phage (X)",
+            "id": "fb44-af93-1664-9068",
+            "comment": "T",
+            "hidden": false,
+            "targetId": "3e26-d357-69d6-1341",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Phage (T)"}]
+          },
+          {
+            "name": "Poisoned (X)",
+            "id": "d82f-d6d6-1cbf-5b1d",
+            "comment": "2+",
+            "hidden": false,
+            "targetId": "076f-2c91-c58b-71b3",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (2+)"}]
+          },
+          {"name": "Template", "id": "6e47-5a27-3611-27ab", "hidden": false, "targetId": "7df2-9e88-3285-cf6a", "type": "rule"},
+          {
+            "name": "Blast (X)",
+            "id": "49cc-4ce9-15aa-2aa1",
+            "comment": "AP",
+            "hidden": false,
+            "targetId": "8687-05f8-7034-412c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Blast (3\")"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Heavy irradiation engine",
+            "id": "9bd3-871c-8ef4-b589",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "2", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "5", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Blast (3\"), Phage (T), Poisoned (2+), Panic (1)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Rad", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

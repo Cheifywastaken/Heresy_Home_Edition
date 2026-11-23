@@ -16051,7 +16051,7 @@
         "type": "unit",
         "categoryLinks": [{"name": "Macrotek", "id": "9f04-15a7-b5ca-4c27", "primary": false, "targetId": "1ec3-1433-658a-f04e"}],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 120},
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 110},
           {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
           {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
           {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
@@ -16068,7 +16068,7 @@
             "id": "1d13-1901-2e6b-cc58",
             "hidden": false,
             "import": true,
-            "sortIndex": 5,
+            "sortIndex": 6,
             "targetId": "67af-3519-2c95-6da0",
             "type": "selectionEntry",
             "constraints": [
@@ -16095,7 +16095,7 @@
             "id": "1622-e17d-199d-c063",
             "hidden": false,
             "import": true,
-            "sortIndex": 6,
+            "sortIndex": 7,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
             "entryLinks": [
@@ -16130,6 +16130,7 @@
             "id": "df0e-a1dd-51b0-91be",
             "hidden": false,
             "import": true,
+            "sortIndex": 5,
             "targetId": "87d1-3abd-e717-514c",
             "type": "selectionEntry",
             "constraints": [{"id": "6fff-1045-e4d7-c4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
@@ -16234,7 +16235,7 @@
             "name": "Options",
             "id": "8e04-b86f-40e6-bf53",
             "hidden": false,
-            "sortIndex": 3,
+            "sortIndex": 4,
             "entryLinks": [
               {
                 "name": "Hunter-killer missile",
@@ -16301,17 +16302,19 @@
                 "targetId": "d22a-d9bc-ed06-1a7f",
                 "type": "selectionEntry",
                 "constraints": [{"id": "7287-e6ea-c29b-b67e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
                 "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted lightning cannon"}]
               },
               {
-                "name": "Irradiation engine",
+                "name": "Heavy irradiation engine",
                 "id": "521e-9aa5-eb5c-5d09",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 2,
-                "targetId": "6053-f4b6-7d5e-552d",
+                "targetId": "7deb-c73a-4d86-38f2",
                 "type": "selectionEntry",
                 "constraints": [{"id": "6a45-e86f-c103-e180", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
                 "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted irradiation blaster"}]
               },
               {
@@ -16322,6 +16325,7 @@
                 "sortIndex": 4,
                 "targetId": "4e51-460b-4f29-8257",
                 "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
                 "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted "}]
               }
             ],
@@ -16379,7 +16383,7 @@
             "name": "Sponson Weapons",
             "id": "d7b0-90e4-e52b-a6fe",
             "hidden": false,
-            "sortIndex": 4,
+            "sortIndex": 3,
             "constraints": [{"id": "ceb4-5114-4cb4-9bef", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "entryLinks": [
               {
@@ -16402,7 +16406,15 @@
                 "type": "selectionEntry",
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
               },
-              {"name": "Quad heavy stubber array", "id": "6cab-91a0-6e8b-2bb6", "hidden": false, "import": true, "targetId": "ec51-7687-8a6a-439a", "type": "selectionEntry"}
+              {
+                "name": "Quad heavy stubber array",
+                "id": "6cab-91a0-6e8b-2bb6",
+                "hidden": false,
+                "import": true,
+                "targetId": "ec51-7687-8a6a-439a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+              }
             ],
             "modifiers": [
               {
