@@ -2231,6 +2231,49 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Galvanic arquebus",
+        "id": "3e1f-73cd-fb69-37dd",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Heavy (X)",
+            "id": "5e17-4ec8-6774-4fca",
+            "hidden": false,
+            "targetId": "bc30-3b33-2683-01a2",
+            "type": "rule",
+            "modifiers": [{"comment": "D", "field": "name", "type": "set", "value": "Heavy (D)"}]
+          },
+          {
+            "name": "Pinning (X)",
+            "id": "de85-e62d-641b-1a7e",
+            "hidden": false,
+            "targetId": "88b6-6493-e4d7-1805",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Pinning (0)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Galvanic arquebus",
+            "id": "2ad5-8314-8e49-59fd",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "36", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "7", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Heavy (D), Pinning (0)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
