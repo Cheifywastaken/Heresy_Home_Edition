@@ -1817,6 +1817,34 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Automated Driver Index",
+        "id": "87d1-3abd-e717-514c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Automated Driver Index",
+            "id": "f98a-67d5-a799-a402",
+            "hidden": false,
+            "typeId": "5ec5-e0c3-1701-6f16",
+            "typeName": "Wargear",
+            "characteristics": [
+              {
+                "name": "Summary",
+                "$text": "\"Automated Driver indexes allows access to an additional sponson weapon and cannot make reactions\"",
+                "typeId": "8e7d-a0ae-fd85-983c"
+              },
+              {
+                "name": "Description",
+                "$text": "A model equipped with an automated driver index may take an addition sponson weapon but both sponson weapons must be the same, In addition a model equipped with this cannot make reactions.",
+                "typeId": "9944-2f6d-d61b-03b5"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

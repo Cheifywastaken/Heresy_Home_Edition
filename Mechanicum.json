@@ -16124,7 +16124,8 @@
                 "conditions": [{"childId": "a782-7985-325b-1840", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
               }
             ]
-          }
+          },
+          {"name": "Automated Driver Index", "id": "df0e-a1dd-51b0-91be", "hidden": false, "import": true, "targetId": "87d1-3abd-e717-514c", "type": "selectionEntry"}
         ],
         "infoLinks": [
           {"name": "[Allegiance]", "id": "8d52-7d3a-e1a7-7a3c", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
@@ -16218,24 +16219,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Automated Driver Index",
-            "id": "5cf2-9175-57c2-320f",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "costs": [
-              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
-              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
-              {"name": "Primary Detachment", "typeId": "394e-d166-d4e5-022a", "value": 0}
-            ]
           }
         ],
         "selectionEntryGroups": [
@@ -16275,7 +16258,7 @@
                     "value": 1,
                     "repeats": [
                       {
-                        "childId": "5cf2-9175-57c2-320f",
+                        "childId": "df0e-a1dd-51b0-91be",
                         "childName": "Automated Driver Index",
                         "field": "selections",
                         "repeats": 1,
@@ -16388,10 +16371,7 @@
             "id": "d7b0-90e4-e52b-a6fe",
             "hidden": false,
             "sortIndex": 4,
-            "constraints": [
-              {"id": "ceb4-5114-4cb4-9bef", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
-              {"id": "60d0-dd1e-a91e-b630", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
-            ],
+            "constraints": [{"id": "ceb4-5114-4cb4-9bef", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "entryLinks": [
               {
                 "name": "Gravis autocannon",
@@ -16421,7 +16401,7 @@
                 "value": 1,
                 "repeats": [
                   {
-                    "childId": "5cf2-9175-57c2-320f",
+                    "childId": "df0e-a1dd-51b0-91be",
                     "childName": "Automated Driver Index",
                     "field": "selections",
                     "repeats": 1,
