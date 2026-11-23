@@ -16125,7 +16125,15 @@
               }
             ]
           },
-          {"name": "Automated Driver Index", "id": "df0e-a1dd-51b0-91be", "hidden": false, "import": true, "targetId": "87d1-3abd-e717-514c", "type": "selectionEntry"}
+          {
+            "name": "Automated Driver Index",
+            "id": "df0e-a1dd-51b0-91be",
+            "hidden": false,
+            "import": true,
+            "targetId": "87d1-3abd-e717-514c",
+            "type": "selectionEntry",
+            "constraints": [{"id": "6fff-1045-e4d7-c4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          }
         ],
         "infoLinks": [
           {"name": "[Allegiance]", "id": "8d52-7d3a-e1a7-7a3c", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
