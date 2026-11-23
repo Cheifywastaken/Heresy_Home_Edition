@@ -1023,7 +1023,15 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Armour", "id": "a48e-4cbf-3a77-9c6b", "primary": true, "targetId": "643a-1012-bd51-6537"}]
       },
-      {"name": "Ighon Battle Maniple", "id": "b854-0fbb-c9b3-738b", "hidden": false, "import": true, "targetId": "2f39-b370-a3d6-2cc7", "type": "selectionEntry"}
+      {
+        "name": "Ighon Battle Maniple",
+        "id": "b854-0fbb-c9b3-738b",
+        "hidden": false,
+        "import": true,
+        "targetId": "2f39-b370-a3d6-2cc7",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "category", "type": "set-primary", "value": "2b65-a3f2-620a-dc58"}]
+      }
     ],
     "sharedProfiles": [
       {
@@ -16593,9 +16601,33 @@
           }
         ],
         "infoLinks": [
-          {"name": "Bulky (X)", "id": "1318-b103-03f1-4900", "comment": "2", "hidden": false, "targetId": "50ad-a9a5-1f1d-9a25", "type": "rule"},
-          {"name": "Precision (X)", "id": "a405-1dea-a39f-cd56", "comment": "4+", "hidden": false, "targetId": "4fbd-e0bc-8f72-6e3f", "type": "rule"},
-          {"name": "Explodes (X)", "id": "7cbb-7906-711b-fcd4", "comment": "6+", "hidden": false, "targetId": "da5b-b871-20da-3e70", "type": "rule"},
+          {
+            "name": "Bulky (X)",
+            "id": "1318-b103-03f1-4900",
+            "comment": "2",
+            "hidden": false,
+            "targetId": "50ad-a9a5-1f1d-9a25",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Bulky (2)"}]
+          },
+          {
+            "name": "Precision (X)",
+            "id": "a405-1dea-a39f-cd56",
+            "comment": "4+",
+            "hidden": false,
+            "targetId": "4fbd-e0bc-8f72-6e3f",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precision (4+)"}]
+          },
+          {
+            "name": "Explodes (X)",
+            "id": "7cbb-7906-711b-fcd4",
+            "comment": "6+",
+            "hidden": false,
+            "targetId": "da5b-b871-20da-3e70",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Explodes (6+)"}]
+          },
           {"name": "[Allegiance]", "id": "60f2-a4ce-92b6-1d3c", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
           {"name": "[Mechanicum]", "id": "a70f-919f-6578-3a10", "hidden": false, "targetId": "7aca-c779-952f-fcac", "type": "profile"}
         ],
