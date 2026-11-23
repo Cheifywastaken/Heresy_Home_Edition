@@ -2277,7 +2277,7 @@
               {"name": "RS", "$text": "7", "typeId": "b9da-ee13-79f9-fa63"},
               {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
               {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Heavy (D), Pinning (0)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Special Rules", "$text": "Heavy (D), Pinning (0), Precision (4+)", "typeId": "5aad-137a-8ee2-63fd"},
               {"name": "Traits", "$text": "Auto", "typeId": "1247-79d2-6cc1-8a03"}
             ]
           }
