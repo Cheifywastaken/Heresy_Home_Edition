@@ -16321,7 +16321,8 @@
                 "import": true,
                 "sortIndex": 4,
                 "targetId": "4e51-460b-4f29-8257",
-                "type": "selectionEntry"
+                "type": "selectionEntry",
+                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted "}]
               }
             ],
             "selectionEntries": [
@@ -16355,7 +16356,7 @@
                       {"id": "8752-f11c-dd20-0d02", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "7d13-7dd8-9a9f-9b49", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Turret mounted vanquisher cannon"}]
+                    "modifiers": [{"field": "name", "type": "set", "value": "Co-axial (Sollex Heavy-las) Mounted heavy stubber"}]
                   },
                   {
                     "name": "Sollex heavy-las",
@@ -16368,7 +16369,7 @@
                       {"id": "cd20-c7a8-f358-836c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "f62d-ad9f-333e-ffb7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Co-axial (vanquisher cannon) Mounted heavy stubber"}]
+                    "modifiers": [{"field": "name", "type": "set", "value": "Centerline Mounted sollex heavy-las"}]
                   }
                 ]
               }
@@ -16400,7 +16401,8 @@
                 "targetId": "b341-159d-9dfb-ff31",
                 "type": "selectionEntry",
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
-              }
+              },
+              {"name": "Quad heavy stubber array", "id": "6cab-91a0-6e8b-2bb6", "hidden": false, "import": true, "targetId": "ec51-7687-8a6a-439a", "type": "selectionEntry"}
             ],
             "modifiers": [
               {

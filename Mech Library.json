@@ -2131,6 +2131,42 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Quad heavy stubber array",
+        "id": "ec51-7687-8a6a-439a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Suppressive (X)",
+            "id": "c6c1-4110-328e-8835",
+            "comment": "2",
+            "hidden": false,
+            "targetId": "001f-53f3-4d87-4b43",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Suppressive (2)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Quad heavy stubber array",
+            "id": "fa55-8e71-b4e2-d7ab",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "36", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "8", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "4", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "6", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Suppressive (2)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Auto", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
