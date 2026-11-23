@@ -16628,7 +16628,8 @@
             "targetId": "530f-b733-993c-ec84",
             "type": "rule",
             "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (2)"}]
-          }
+          },
+          {"name": "Move Through Cover", "id": "7a00-496f-3ecb-c3f8", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"}
         ],
         "selectionEntries": [
           {
@@ -16666,7 +16667,7 @@
                   {"name": "WS", "$text": "3", "typeId": "253c-d694-4695-c89e"},
                   {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
                   {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "5", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
                   {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
                   {"name": "I", "$text": "3", "typeId": "af9d-7db8-dc95-71c1"},
                   {"name": "A", "$text": "2", "typeId": "024e-bdb1-7982-25a0"},
@@ -16689,12 +16690,13 @@
                   {"id": "164c-8453-0adb-78d0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Bolter", "id": "c0aa-8549-9e88-7306", "hidden": false, "import": true, "targetId": "d3f9-b9e6-3ea5-cc8e", "type": "selectionEntry"},
+                  {"name": "Bolter", "id": "c0aa-8549-9e88-7306", "hidden": false, "import": true, "sortIndex": 1, "targetId": "d3f9-b9e6-3ea5-cc8e", "type": "selectionEntry"},
                   {
                     "name": "Maxima bolter",
                     "id": "7a82-a8d6-95c8-b134",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 2,
                     "targetId": "350a-3713-d175-ab09",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
@@ -16704,9 +16706,20 @@
                     "id": "c37e-14fa-d5c2-f624",
                     "hidden": false,
                     "import": true,
+                    "sortIndex": 3,
                     "targetId": "3e1f-73cd-fb69-37dd",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                  },
+                  {
+                    "name": "Flamer",
+                    "id": "03f9-78cd-8d96-9239",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 4,
+                    "targetId": "9a45-35cd-3806-2303",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
                   }
                 ]
               }
