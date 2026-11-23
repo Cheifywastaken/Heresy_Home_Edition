@@ -2254,6 +2254,14 @@
             "targetId": "88b6-6493-e4d7-1805",
             "type": "rule",
             "modifiers": [{"field": "name", "type": "set", "value": "Pinning (0)"}]
+          },
+          {
+            "name": "Precision (X)",
+            "id": "f0f5-7f22-3939-3d6a",
+            "hidden": false,
+            "targetId": "4fbd-e0bc-8f72-6e3f",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precision (4+)"}]
           }
         ],
         "profiles": [
