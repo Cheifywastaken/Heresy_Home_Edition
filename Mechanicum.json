@@ -16648,25 +16648,22 @@
                 ]
               }
             ],
-            "selectionEntries": [
+            "selectionEntryGroups": [
               {
                 "name": "Ranged Weapon",
-                "id": "f87b-1cdb-dd1b-d970",
+                "id": "5c0c-6c5e-9e0b-5d68",
                 "hidden": false,
-                "import": true,
-                "type": "upgrade",
                 "constraints": [
                   {"id": "edc8-d797-f0fb-a034", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "164c-8453-0adb-78d0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Bolter", "id": "c0aa-8549-9e88-7306", "hidden": false, "import": true, "sortIndex": 1, "targetId": "d3f9-b9e6-3ea5-cc8e", "type": "selectionEntry"},
+                  {"name": "Bolter", "id": "c0aa-8549-9e88-7306", "hidden": false, "import": true, "targetId": "d3f9-b9e6-3ea5-cc8e", "type": "selectionEntry"},
                   {
                     "name": "Maxima bolter",
                     "id": "7a82-a8d6-95c8-b134",
                     "hidden": false,
                     "import": true,
-                    "sortIndex": 2,
                     "targetId": "350a-3713-d175-ab09",
                     "type": "selectionEntry",
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
