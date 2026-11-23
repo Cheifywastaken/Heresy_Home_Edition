@@ -16218,6 +16218,24 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Automated Driver Index",
+            "id": "5cf2-9175-57c2-320f",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
+              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+              {"name": "Primary Detachment", "typeId": "394e-d166-d4e5-022a", "value": 0}
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -16251,8 +16269,23 @@
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
                 "modifiers": [
                   {"field": "name", "type": "set", "value": "Pintle Mounted Heavy Stubber"},
-                  {"field": "69aa-b088-a87f-a124", "type": "increment", "value": 1},
-                  {"field": "69aa-b088-a87f-a124", "type": "decrement", "value": 1}
+                  {
+                    "field": "69aa-b088-a87f-a124",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "5cf2-9175-57c2-320f",
+                        "childName": "Automated Driver Index",
+                        "field": "selections",
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -16273,7 +16306,7 @@
                 "id": "89b7-aa8e-d2f3-51ad",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 1,
+                "sortIndex": 3,
                 "targetId": "d22a-d9bc-ed06-1a7f",
                 "type": "selectionEntry",
                 "constraints": [{"id": "7287-e6ea-c29b-b67e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -16289,6 +16322,15 @@
                 "type": "selectionEntry",
                 "constraints": [{"id": "6a45-e86f-c103-e180", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted irradiation blaster"}]
+              },
+              {
+                "name": "Gravis autocannon",
+                "id": "f32b-a3a8-8f64-7224",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 4,
+                "targetId": "4e51-460b-4f29-8257",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntries": [
@@ -16297,8 +16339,19 @@
                 "id": "7bda-97ac-e1ac-be5f",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 3,
+                "sortIndex": 1,
                 "type": "upgrade",
+                "costs": [
+                  {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
+                  {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+                  {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+                  {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+                  {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+                  {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+                  {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+                  {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+                  {"name": "Primary Detachment", "typeId": "394e-d166-d4e5-022a", "value": 0}
+                ],
                 "entryLinks": [
                   {
                     "name": "Heavy stubber",
@@ -16326,8 +16379,7 @@
                     ],
                     "modifiers": [{"field": "name", "type": "set", "value": "Co-axial (vanquisher cannon) Mounted heavy stubber"}]
                   }
-                ],
-                "modifiers": [{"field": "9893-c379-920b-8982", "type": "set", "value": 10}]
+                ]
               }
             ]
           },
@@ -16336,7 +16388,10 @@
             "id": "d7b0-90e4-e52b-a6fe",
             "hidden": false,
             "sortIndex": 4,
-            "constraints": [{"id": "ceb4-5114-4cb4-9bef", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+            "constraints": [
+              {"id": "ceb4-5114-4cb4-9bef", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "60d0-dd1e-a91e-b630", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
             "entryLinks": [
               {
                 "name": "Gravis autocannon",
@@ -16357,6 +16412,25 @@
                 "targetId": "b341-159d-9dfb-ff31",
                 "type": "selectionEntry",
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "ceb4-5114-4cb4-9bef",
+                "type": "increment",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "5cf2-9175-57c2-320f",
+                    "childName": "Automated Driver Index",
+                    "field": "selections",
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
