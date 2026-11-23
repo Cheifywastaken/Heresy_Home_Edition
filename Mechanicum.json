@@ -16133,7 +16133,8 @@
             "sortIndex": 5,
             "targetId": "87d1-3abd-e717-514c",
             "type": "selectionEntry",
-            "constraints": [{"id": "6fff-1045-e4d7-c4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "6fff-1045-e4d7-c4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
           }
         ],
         "infoLinks": [
@@ -16294,18 +16295,6 @@
             ],
             "entryLinks": [
               {
-                "name": "Lightning lock",
-                "id": "89b7-aa8e-d2f3-51ad",
-                "hidden": false,
-                "import": true,
-                "sortIndex": 3,
-                "targetId": "d22a-d9bc-ed06-1a7f",
-                "type": "selectionEntry",
-                "constraints": [{"id": "7287-e6ea-c29b-b67e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
-                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted lightning cannon"}]
-              },
-              {
                 "name": "Heavy irradiation engine",
                 "id": "521e-9aa5-eb5c-5d09",
                 "hidden": false,
@@ -16325,8 +16314,8 @@
                 "sortIndex": 4,
                 "targetId": "4e51-460b-4f29-8257",
                 "type": "selectionEntry",
-                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
-                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted "}]
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted Gravis autocannon"}]
               }
             ],
             "selectionEntries": [
