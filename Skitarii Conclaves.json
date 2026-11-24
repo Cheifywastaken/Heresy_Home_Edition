@@ -741,8 +741,7 @@
         "import": true,
         "targetId": "4ab5-84a3-7d6e-7232",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Command", "id": "c78d-6a97-006b-45ce", "primary": true, "targetId": "6dbf-654a-f06f-2d69"}],
-        "modifiers": [{"field": "category", "type": "set-primary", "value": "d9a6-9b5f-b18a-4d63"}]
+        "categoryLinks": [{"name": "High Command", "id": "1848-0448-14e9-ffaf", "hidden": false, "primary": true, "targetId": "d9a6-9b5f-b18a-4d63"}]
       }
     ],
     "forceEntries": [
