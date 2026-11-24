@@ -1030,7 +1030,7 @@
         "import": true,
         "targetId": "2f39-b370-a3d6-2cc7",
         "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "set-primary", "value": "2b65-a3f2-620a-dc58"}]
+        "categoryLinks": [{"name": "Recon", "id": "979e-a33e-d5d9-3954", "hidden": false, "primary": true, "targetId": "2b65-a3f2-620a-dc58"}]
       }
     ],
     "sharedProfiles": [
