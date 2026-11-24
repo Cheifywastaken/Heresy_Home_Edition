@@ -16313,7 +16313,7 @@
                 "type": "selectionEntry",
                 "constraints": [{"id": "6a45-e86f-c103-e180", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
-                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted irradiation blaster"}]
+                "modifiers": [{"field": "name", "type": "set", "value": "Centreline Mounted Heavy irradiation engine"}]
               },
               {
                 "name": "Gravis autocannon",

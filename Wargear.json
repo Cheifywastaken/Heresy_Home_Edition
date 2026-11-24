@@ -1839,7 +1839,7 @@
               },
               {
                 "name": "Description",
-                "$text": "A model equipped with an automated driver index may take an addition sponson weapon but both sponson weapons must be the same, In addition a model equipped with this cannot make reactions.",
+                "$text": "A model equipped with an automated driver index may take an addition sponson weapon, In addition a model equipped with this cannot make reactions.",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
